@@ -6,7 +6,6 @@
 #include "Analyzer.h"
 #include "Station.h"
 
-
 int main(int argc, char* argv[]) {
 	if (argc>1) {
 		std::ifstream inputStream(argv[1], std::ios_base::in);
@@ -32,13 +31,4 @@ int main(int argc, char* argv[]) {
 
 	return 0;
 }
-
-
-
-
-
-
-
-
-
 

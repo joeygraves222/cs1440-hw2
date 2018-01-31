@@ -28,7 +28,4 @@ private:
 	Day* addDay(std::string& date);
 };
 
-	
-
-
 #endif

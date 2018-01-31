@@ -1,8 +1,6 @@
 #include "Station.h"
 #include "Stat.h"
 
-
-
 bool split(const std::string& s, char delimiter, std::string elements[], int expectedNumberOfElements) {
 	std::stringstream ss;
 	ss.str(s);
