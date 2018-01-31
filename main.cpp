@@ -28,6 +28,9 @@ int main(int argc, char* argv[]) {
 				analyzer.analyze(station);
 		}
 	}
+	else if (argc == 1) {
+		std::cout << "Please pass arguments into the program" << std::endl;
+	}
 
 	return 0;
 }
