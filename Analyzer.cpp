@@ -1,8 +1,5 @@
 #include "Analyzer.h"
 
-
-
-
 void Analyzer::analyze(Station* station) {
 	std::string lastDay = "";
 	int count = 0;

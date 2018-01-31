@@ -1,7 +1,5 @@
 #include "Stat.h"
 
-
-
 Stat::Stat(std::string time, std::string qgag, std::string qpcp) {
 	_time = time;
 	_precipitationQgag = stof(qgag);

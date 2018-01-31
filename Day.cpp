@@ -1,7 +1,5 @@
 #include "Day.h"
 
-
-
 Day::Day(std::string date) {
 	_date = date;
 }
